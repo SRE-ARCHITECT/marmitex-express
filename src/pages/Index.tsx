@@ -79,16 +79,19 @@ const Index = () => {
               title="Marmitex Tradicional"
               price="R$ 25,90"
               description="Arroz, feijão, bife acebolado, batata frita e salada"
+              image="https://images.unsplash.com/photo-1547496502-affa22d38842?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Fit"
               price="R$ 28,90"
               description="Arroz integral, frango grelhado, legumes no vapor"
+              image="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Executiva"
               price="R$ 32,90"
               description="Arroz, filé mignon, legumes salteados e purê de batata"
+              image="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=800&q=80"
             />
           </div>
         </div>
@@ -163,10 +166,12 @@ const MenuItem = ({
   title,
   price,
   description,
+  image,
 }: {
   title: string;
   price: string;
   description: string;
+  image: string;
 }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
@@ -175,6 +180,13 @@ const MenuItem = ({
     viewport={{ once: true }}
     className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden"
   >
+    <div className="aspect-w-16 aspect-h-9">
+      <img 
+        src={image} 
+        alt={title} 
+        className="w-full h-48 object-cover"
+      />
+    </div>
     <div className="p-6">
       <div className="flex justify-between items-start mb-4">
         <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
@@ -186,3 +198,4 @@ const MenuItem = ({
 );
 
 export default Index;
+
