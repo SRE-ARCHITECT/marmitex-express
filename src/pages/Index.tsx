@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { ArrowRight, Clock, Star, Utensils } from "lucide-react";
@@ -78,7 +79,7 @@ const Index = () => {
               title="Marmitex Tradicional"
               price="R$ 25,90"
               description="Arroz, feijão, bife acebolado, batata frita e salada"
-              image="https://images.unsplash.com/photo-1546069901-d5feb1c204e6?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Fit"
