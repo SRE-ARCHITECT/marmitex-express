@@ -78,19 +78,19 @@ const Index = () => {
               title="Marmitex Tradicional"
               price="R$ 25,90"
               description="Arroz, feijão, bife acebolado, batata frita e salada"
-              image="https://images.unsplash.com/photo-1546069901-d5feb1c204e6?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1671025619960-f65657e03b13?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Fit"
               price="R$ 28,90"
               description="Arroz integral, frango grelhado, legumes no vapor"
-              image="https://images.unsplash.com/photo-1580062060706-c8dd92be33fe?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Executiva"
               price="R$ 32,90"
               description="Arroz, filé mignon, legumes salteados e purê de batata"
-              image="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=800&q=80"
             />
           </div>
         </div>
