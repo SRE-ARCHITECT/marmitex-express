@@ -78,7 +78,7 @@ const Index = () => {
               title="Marmitex Tradicional"
               price="R$ 25,90"
               description="Arroz, feijão, bife acebolado, batata frita e salada"
-              image="https://images.unsplash.com/photo-1624726175512-19b9baf9fbd1?auto=format&fit=crop&w=800&q=80"
+              image="/lovable-uploads/63627da4-0c56-4bae-ad6e-a6aa66ab3868.png"
             />
             <MenuItem
               title="Marmitex Fit"
