@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { ArrowRight, Clock, Star, Utensils } from "lucide-react";
@@ -79,19 +78,19 @@ const Index = () => {
               title="Marmitex Tradicional"
               price="R$ 25,90"
               description="Arroz, feijão, bife acebolado, batata frita e salada"
-              image="https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1546069901-d5feb1c204e6?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Fit"
               price="R$ 28,90"
               description="Arroz integral, frango grelhado, legumes no vapor"
-              image="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1580062060706-c8dd92be33fe?auto=format&fit=crop&w=800&q=80"
             />
             <MenuItem
               title="Marmitex Executiva"
               price="R$ 32,90"
               description="Arroz, filé mignon, legumes salteados e purê de batata"
-              image="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80"
+              image="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
             />
           </div>
         </div>
