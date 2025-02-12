@@ -84,13 +84,13 @@ const Index = () => {
               title="Marmitex Fit"
               price="R$ 28,90"
               description="Arroz integral, frango grelhado, legumes no vapor"
-              image="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
+              image="/lovable-uploads/427e4731-3f31-468b-a4b9-d0971f00b626.png"
             />
             <MenuItem
               title="Marmitex Executiva"
               price="R$ 32,90"
               description="Arroz, filé mignon, legumes salteados e purê de batata"
-              image="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+              image="/lovable-uploads/29d9bac4-b7dc-440a-bd0a-e2a3006cc782.png"
             />
           </div>
         </div>
